@@ -1,0 +1,98 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	left: 0px;
+	top: 0px;
+  	background-image: url('https://www.stormgeo.com/assets/ArticleImages/thunderstorm-flipped__FocusFillWzQyODgsMjcwMCwieSIsNzRd.jpg');
+	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+title {
+	font: 1em Arial, Helvetica, sans-serif;
+
+}
+
+img.titleimg {
+    	display: block;
+	border-radius: 8px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+}
+
+img.bodyimg {
+    	display: block;
+	border-radius: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+}
+#block1
+{
+   font: 1em Arial, Helvetica, sans-serif;
+	color: white;
+}
+#block2
+{
+    font: 1em Arial, Helvetica, sans-serif;
+	color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p, li {
+	font: 1em Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+h1 {
+	font: 2em Arial, Helvetica, sans-serif;
+	color: coral;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+h2 {
+	font: 1.25em Arial, Helvetica, sans-serif;
+	margin-left: auto;
+    	margin-right: auto;
+    	width: 8em
+}
+h3 {
+	font: 1.25em Arial, Helvetica, sans-serif;
+	margin-left: auto;
+    	margin-right: auto;
+    	width: 8em
+}
+h4 {
+	font: 1em Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+h5 {
+	font: 1em Arial, Helvetica, sans-serif;
+	color: coral;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: lightcoral;
+	text-decoration: underline;
+}
+a:visited {
+	color: purple;
+}
+a:hover {
+	background: lightsalmon;
+	font-weight: bold;
+}
